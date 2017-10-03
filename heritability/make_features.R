@@ -1,5 +1,6 @@
 ####Christopher Robles
-##this makes a rbin binary file
+### Split up the UKBB SNPs into a 10x10 grid based on DAF and LD
+### This generates the UKBB.features.rbin file
 ####input [1]mafdafld, [2]ND,[3]rbin out
 
 args = commandArgs(trailingOnly=TRUE)
@@ -13,7 +14,7 @@ ref = read.table(mafdaf, sep="", as.is=T)
 ## SNP IDs from Neandertal
 #id = read.table("ND_EUR_thin.id",as.is=T)[,1]
 id = read.table(args[2],as.is=T)[,1]
-#rbin = "sim.rand.features.rbin"
+#rbin = "UKBB.rand.features.rbin"
 rbin = args[3]
 m = match(id,ref[,1])
 id = id[!is.na(m)]
