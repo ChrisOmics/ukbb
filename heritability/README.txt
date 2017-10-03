@@ -8,4 +8,4 @@ SNPID A1 A2 MAF DAF LD
 then run the scripts make_features to make a binary rbin file that you will use for the matching.
 
 Next run the  match_features script 
-You can then run the compare baseline to calculate statistics
+You can then run the compare baseline to calculate statistics needed
