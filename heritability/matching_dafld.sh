@@ -1,5 +1,5 @@
-# Split up the UKBB SNPs into a 10x10 grid based on DAF and LD
-# This generates the UKBB.features.rbin file
+#####Christopher Robles
+#This generates the matcing SNP ids that match the NIMs as well as 1000 permutations of chi_squared stats
 #$-cwd
 #$-N perm
 #$-l h_data=4G,h_rt=0:20:00,highp
