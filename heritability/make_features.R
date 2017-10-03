@@ -1,3 +1,5 @@
+####Christopher Robles
+##this makes a rbin binary file
 ####input [1]mafdafld, [2]ND,[3]rbin out
 
 args = commandArgs(trailingOnly=TRUE)
