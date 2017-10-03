@@ -1,4 +1,5 @@
 ##Christopher Robles
+#Here we caclulate the 
 First create a mafdafld file with all SNPs
 example:
 
