@@ -1,3 +1,5 @@
+###Christopher Robles
+###makes the outputs of the statistics
 args = (commandArgs(trailingOnly=T))
 
 # *.results file **only needed when not doing z raw
