@@ -21,7 +21,7 @@ pre=$4
 #mkdir $results/matched || :
 # Split up the UKBB SNPs into a 10x10 grid based on DAF and LD
 # This generates the UKBB.features.rbin file
-#R --slave < make_features2.R
+#R --slave < make_features.R
 
 # For each SEED (this is typically done in separate jobs):
 
